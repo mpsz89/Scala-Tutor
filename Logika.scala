@@ -1,5 +1,3 @@
-import scala.annotation.switch
-
 object Logika{
   def alt(p: Int, q: Int){
     if((p == 1) && (q == 1)){
