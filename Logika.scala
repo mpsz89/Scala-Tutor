@@ -1,150 +1,70 @@
+/**
+ * Created by Michal on 21.02.14.
+ */
+
 object Logika{
   def alt(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(1)
-    }
-    else if((p == 1) && (q == 0)){
-      println(1)
-    }
-    else if((p == 0) && (q == 1)){
-      println(1)
-    }
-    else if((p == 0) && (q == 0)){
-      println(0)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(1)
+    else if((p == 1) && (q == 0)) println(1)
+    else if((p == 0) && (q == 1)) println(1)
+    else if((p == 0) && (q == 0)) println(0)
+    else println("Logical value error!!!")
   }
 
-
   def kon(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(1)
-    }
-    else if((p == 1) && (q == 0)){
-      println(0)
-    }
-    else if((p == 0) && (q == 1)){
-      println(0)
-    }
-    else if((p == 0) && (q == 0)){
-      println(0)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(1)
+    else if((p == 1) && (q == 0)) println(0)
+    else if((p == 0) && (q == 1)) println(0)
+    else if((p == 0) && (q == 0)) println(0)
+    else println("Logical value error!!!")
   }
 
   def imp(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(1)
-    }
-    else if((p == 1) && (q == 0)){
-      println(0)
-    }
-    else if((p == 0) && (q == 1)){
-      println(1)
-    }
-    else if((p == 0) && (q == 0)){
-      println(1)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(1)
+    else if((p == 1) && (q == 0)) println(0)
+    else if((p == 0) && (q == 1)) println(1)
+    else if((p == 0) && (q == 0)) println(1)
+    else println("Logical value error!!!")
   }
 
-
   def iff(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(1)
-    }
-    else if((p == 1) && (q == 0)){
-      println(0)
-    }
-    else if((p == 0) && (q == 1)){
-      println(0)
-    }
-    else if((p == 0) && (q == 0)){
-      println(1)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(1)
+    else if((p == 1) && (q == 0)) println(0)
+    else if((p == 0) && (q == 1)) println(0)
+    else if((p == 0) && (q == 0)) println(1)
+    else println("Logical value error!!!")
   }
 
   def xor(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(0)
-    }
-    else if((p == 1) && (q == 0)){
-      println(1)
-    }
-    else if((p == 0) && (q == 1)){
-      println(1)
-    }
-    else if((p == 0) && (q == 0)){
-      println(0)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(0)
+    else if((p == 1) && (q == 0)) println(1)
+    else if((p == 0) && (q == 1)) println(1)
+    else if((p == 0) && (q == 0)) println(0)
+    else println("Logical value error!!!")
   }
 
-
   def nand(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(0)
-    }
-    else if((p == 1) && (q == 0)){
-      println(1)
-    }
-    else if((p == 0) && (q == 1)){
-      println(1)
-    }
-    else if((p == 0) && (q == 0)){
-      println(1)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(0)
+    else if((p == 1) && (q == 0)) println(1)
+    else if((p == 0) && (q == 1)) println(1)
+    else if((p == 0) && (q == 0)) println(1)
+    else println("Logical value error!!!")
   }
 
   def nor(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(0)
-    }
-    else if((p == 1) && (q == 0)){
-      println(0)
-    }
-    else if((p == 0) && (q == 1)){
-      println(0)
-    }
-    else if((p == 0) && (q == 0)){
-      println(1)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(0)
+    else if((p == 1) && (q == 0)) println(0)
+    else if((p == 0) && (q == 1)) println(0)
+    else if((p == 0) && (q == 0)) println(1)
+    else println("Logical value error!!!")
   }
 
-
   def xnor(p: Int, q: Int){
-    if((p == 1) && (q == 1)){
-      println(1)
-    }
-    else if((p == 1) && (q == 0)){
-      println(0)
-    }
-    else if((p == 0) && (q == 1)){
-      println(0)
-    }
-    else if((p == 0) && (q == 0)){
-      println(1)
-    }
-    else{
-      println("Logical value error!!!")
-    }
+    if((p == 1) && (q == 1)) println(1)
+    else if((p == 1) && (q == 0)) println(0)
+    else if((p == 0) && (q == 1)) println(0)
+    else if((p == 0) && (q == 0)) println(1)
+    else println("Logical value error!!!")
   }
 
    def main(args: Array[String]): Unit = {
@@ -231,8 +151,6 @@ object Logika{
 
        xnor(p,q)
      }
-     else{
-       println("Bledny typ logiki matematycznej !!!")
-     }
+     else println("Bledny typ logiki matematycznej !!!")
   }
 }
