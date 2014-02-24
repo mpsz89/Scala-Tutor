@@ -8,8 +8,7 @@ object ComplexNumber{
   }
 
   def modulus(re: Int, im: Int){
-    if(re >= 0 && im >= 0) println(math.sqrt((re*re)+(im*im)))
-    else println(0)
+    println(math.sqrt((re*re)+(im*im)))
   }
 
    def argument(re: Int, im: Int){
