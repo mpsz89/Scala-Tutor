@@ -1,7 +1,3 @@
-/**
- * Created by Michal on 21.02.14.
- */
-
 object Logika{
   def alt(p: Int, q: Int){
     if((p == 1) && (q == 1)) println(1)
